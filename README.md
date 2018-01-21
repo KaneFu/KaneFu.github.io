@@ -1,23 +1,8 @@
-# Jekyll Doc Theme
+#一点点说明
 
-Go to [the website](https://aksakalli.github.io/jekyll-doc-theme/) for detailed information and demo.
-
-## Running locally
-
-You need Ruby and gem before starting, then:
-
-```bash
-# install bundler
-gem install bundler
-
-# clone the project
-git clone https://github.com/aksakalli/jekyll-doc-theme.git
-cd jekyll-doc-theme
-
-# run jekyll with dependencies
-bundle exec jekyll serve
-```
-
-## License
-
-Released under [the MIT license](LICENSE).
+这是[mukosame.github.io](http://mukosame.github.io)的示例代码，第一个能用的，干净的，完全可以作为模板和基础的版本
+* 感谢来自于beiyuu的设计(http://beiyuu.com/)
+* 希望你喜欢
+* 欢迎star
+* 欢迎fork
+* Happy hacking ^_^
