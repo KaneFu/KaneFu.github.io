@@ -1,110 +1,74 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <!--
-    * Author:         BeiYuu
-    * Revised:        Mukosame
-    -->
-    <meta charset="utf-8" />
-    <title>Hyper Hamster</title>
-    <meta name="author" content="Mukosame" />
-    <meta name="renderer" content="webkit">
-    <meta name="description" content="Everything about Mukosame" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <link rel="stylesheet" href="/css/default.css" type="text/css" />
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-    <link rel="alternate" type="application/atom+xml" title="Recent Entries" href="/atom.xml" />
-    <script src="/js/jquery-1.7.1.min.js" type="text/javascript"></script>
-</head>
-<body>
+<!DOCTYPE HTML>
+<!--
+Prologue by HTML5 UP
+html5up.net | @ajlkn
+Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+Jekyll integration by Chris Bobbe | chrisbobbe.github.io
+-->
+<html><head><!-- Robots -->
+  <meta name="robots" content="index, follow" /><link rel="canonical" href="http://localhost:4000/jekyll-theme-prologue/" /><!-- Title, description, author --><title>My Great Homepage | Your awesome title - Your awesome subtitle</title>
+  <meta name="description" content="This is the demo site for a Jekyll theme version of HTML5 UP&#39;s sleek, responsive site template Prologue." />
+  <meta name="author" content="Your Incredible Name" />
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="My Great Homepage | Your awesome title - Your awesome subtitle" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="http://localhost:4000/jekyll-theme-prologue/assets/images/avatar.jpg" />
+  <meta property="og:url" content="http://localhost:4000/jekyll-theme-prologue/" />
+  <meta property="og:site_name" content="Your awesome title" />
+  <meta property="og:description" content="This is the demo site for a Jekyll theme version of HTML5 UP&#39;s sleek, responsive site template Prologue." />
+  
+  <!-- Styles -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!--[if lte IE 8]><script src="/jekyll-theme-prologue/assets/js/ie/html5shiv.js" defer></script><![endif]-->
+  <link rel="stylesheet" href="/jekyll-theme-prologue/assets/css/main.css" />
+  <!--[if lte IE 8]><link rel="stylesheet" href="/jekyll-theme-prologue/assets/css/ie8.css" /><![endif]-->
+  <!--[if lte IE 9]><link rel="stylesheet" href="/jekyll-theme-prologue/assets/css/ie9.css" /><![endif]-->
 
-    <div class="home-menu">
-        <div class="home-icon-con">
-            <a class="home-menu-icon" href="/">Mukosame</a>
-            <a class="home-follow" href="#" title="Contact Me">+</a>
-        </div>
-        <div class="home-contact">
-            <a href="https://github.com/Mukosame/" target="_blank" style="margin-left:-5px;"><img src="https://github.com/favicon.ico" alt="" width="22"/></a>
-            <a href="http://www.douban.com/people/23026489/" target="_blank" style="text-align:center;"><img src="http://www.douban.com/favicon.ico" alt="" width="22"/></a>
-            <a href="http://www.zhihu.com/people/xiang-xiao-yu-20" target="_blank" style="text-align:right"><img src="http://www.zhihu.com/favicon.ico" alt="" width="22"/></a>
-        </div>
-    </div>
+  <!-- Scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" defer></script>
+  <script src="/jekyll-theme-prologue/assets/js/jquery.scrolly.min.js" defer></script>
+  <script src="/jekyll-theme-prologue/assets/js/jquery.scrollzer.min.js" defer></script>
+  <script src="/jekyll-theme-prologue/assets/js/skel.min.js" defer></script>
+  <script src="/jekyll-theme-prologue/assets/js/util.js" defer></script>
+  <!--[if lte IE 8]><script src="/jekyll-theme-prologue/assets/js/ie/respond.min.js" defer></script><![endif]-->
+  <script src="/jekyll-theme-prologue/assets/js/main.js" defer></script>
 
-    <div class="index-content blog">
-    <div class="section">
-        <ul class="artical-cate">
-            <li class="on"><a href="/"><span>Blog</span></a></li>
-            <li style="text-align:center"><a href="/dump"><span>Dump</span></a></li>
-            <li style="text-align:right"><a href="/project"><span>Project</span></a></li>
-        </ul>
-
-        <div class="cate-bar"><span id="cateBar"></span></div>
-
-        <ul class="artical-list">
-        
-        </ul>
-    </div>
-    <div class="aside">
-    </div>
+</head><body><!-- Header -->
+<div id="header">
+  <div class="top"><!-- Logo -->
+<div id="logo">
+  <a href="http://localhost:4000/jekyll-theme-prologue/" id="home-link">
+    <span class="image avatar48"><img src="/jekyll-theme-prologue/assets/images/avatar.jpg" alt="Avatar of Your Incredible Name" /></span>
+    <h1 id="title">Your awesome title</h1>
+    <p>Your awesome subtitle</p>
+  </a>
+</div><!-- Nav -->
+<nav id="nav">
+  <ul><li><a href="#" id="my-great-homepage" class="active">
+            <span class="icon fa-home">My Great Homepage</span>
+          </a></li><li><a href="http://localhost:4000/jekyll-theme-prologue/blog.html" id="amazing-blog-link">
+            <span class="icon fa-pencil">Amazing Blog</span>
+          </a></li><li><a href="http://localhost:4000/jekyll-theme-prologue/reading-list.html" id="reading-list-link">
+            <span class="icon fa-book">Reading List</span>
+          </a></li></ul>
+</nav></div>
+  <div class="bottom"><!-- Social Icons -->
+<ul class="icons"><li><a href="mailto:your-email@example.com" class="icon fa-envelope"><span class="label">Email</span></a></li></ul></div>
 </div>
-
-
-<script type="text/javascript">
-    $(function(){
-        function animateBar($item,noAni){
-            var spanLeft = $item.find('span').offset().left;
-            var conLeft = $item.parent().offset().left;
-            var left = spanLeft - conLeft;
-            var width = $item.find('span').width() + 8;
-
-            if(noAni){
-                $('#cateBar').css({left:left,width:width})
-            }else{
-                $('#cateBar').stop().animate({left:left,width:width},300)
-            }
-        }
-
-        var waitForFinalEvent = (function () {
-            var timers = {};
-            return function (callback, ms, uniqueId) {
-                if (!uniqueId) {
-                    uniqueId = "Don't call this twice without a uniqueId";
-                }
-                if (timers[uniqueId]) {
-                    clearTimeout (timers[uniqueId]);
-                }
-                timers[uniqueId] = setTimeout(callback, ms);
-            };
-        })();
-
-        $('.artical-cate li').mouseenter(function(){
-            animateBar($(this));
-        }).mouseleave(function(){
-            animateBar($('.artical-cate .on'));
-        });
-
-        $(window).resize(function(e){
-            waitForFinalEvent(function(){
-                animateBar($('.artical-cate .on'));
-            })
-        })
-        animateBar($('.artical-cate .on'),true);
-    });
-</script>
-
-
-    <script type="text/javascript">
-        $(function(){
-            $('.home-follow').click(function(e){
-                e.preventDefault();
-
-                if($('.home-contact').is(':visible')){
-                    $('.home-contact').slideUp(100);
-                }else{
-                    $('.home-contact').slideDown(100);
-                }
-            });
-        })
-    </script>
-</body>
+<!-- Main -->
+<div id="main"><!-- Sections --></div><!-- Footer -->
+<div id="footer">
+  
+  <!-- Copyright -->
+  <ul class="copyright">
+    
+      <li>&copy;Your awesome title. All rights reserved.</li>
+    
+    <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+    <li>Jekyll integration: <a href="https://chrisbobbe.github.io/">Chris Bobbe</a></li>
+  </ul>
+  
+</div></body>
 </html>
