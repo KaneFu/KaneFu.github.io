@@ -13,7 +13,7 @@ keyword: "付亮, Kane, @huxpro, 黄玄的博客, Hux Blog, 博客, 个人网站
 # SNS settings
 RSS: false
 weibo_username:     Coherence_
-# zhihu_username:     huxpro
+zhihu_username:     Coherence_
 # github_username:    huxpro
 # twitter_username:   huxpro
 #facebook_username:  huxpro
@@ -62,13 +62,13 @@ netease_comment: false
 
 # Google Analytics
 ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+# ga_domain: huangxuan.me
 
 
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "写写代码，做做设计，<br>复活却又长不大"
+sidebar-about-description: "找个频率，形成驻波<br>复活却又长不大"
 sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
