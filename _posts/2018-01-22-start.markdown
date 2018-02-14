@@ -1,13 +1,11 @@
 ---
 layout:     post
-title:      "start from here"
+title:      "Late is better than never"
 date:       2018-01-22 12:16:00
 author:     "Kane"
 catalog:	  true
 tags:
 	- 随笔
-
-Late is better than never
 ---
 
 本应该在搭好博客的当晚写下此篇，现在夜里十一点，在加班的间隙趁心里有些温暖🙂敲下些文字。
