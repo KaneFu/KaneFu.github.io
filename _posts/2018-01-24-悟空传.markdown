@@ -4,10 +4,12 @@ title:      "我的一个妖怪朋友"
 subtitle:   ""
 date:       2018-01-24 21:16:00
 author:     "Kane"
-header-img: ""
-tags: 
-	- 随笔
-	- BiliBili
+header-mask:  0.3
+catalog:      true
+multilingual: true
+tags:
+    - 随笔
+    - BiliBili
 ---
 
 喜欢B站，因为有一群人衷心热爱并愿意贡献自己的小技能，给b站文化添砖加瓦。这次被应该属于音乐区的鬼畜感动了。心情好，把歌词黏下来。

@@ -5,6 +5,12 @@ subtitle:   ""
 date:       2017-06-24 12:00:00
 author:     "Hux"
 header-img: ""
+header-mask:  0.3
+catalog:      true
+multilingual: true
+tags:
+    - 随笔
+    - Flag
 ---
 
 > 在知乎被删帖，我理解知乎。  
