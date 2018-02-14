@@ -7,9 +7,8 @@ header-mask:  0.3
 catalog:      true
 multilingual: true
 tags:
-    - 前端开发
-    - JavaScript
-    - PWA
+    - 随笔
+    - Flag
 ---
 
 本应该在搭好博客的当晚写下此篇，现在夜里十一点，在加班的间隙趁心里有些温暖🙂敲下些文字。
