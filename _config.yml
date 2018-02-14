@@ -68,7 +68,7 @@ ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "找个频率，形成驻波<br>复活却又长不大"
+sidebar-about-description: "驻波<br>复活却又长不大"
 sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
@@ -88,11 +88,10 @@ service-worker: true
 # Friends
 friends: [
     {
-    #     title: "Su",
-    #     href: "http://su.gallery/"
-    # },{
-        title: "朋友是度娘",
-        href: "http://www.baidu.com"
-
+      title: "朋友是度娘",
+      href: "http://www.baidu.com"
+    },{
+      title: "YJH以及上海的朋友们&凡凡",
+      href: "http://www.4399.com"
     }
 ]
